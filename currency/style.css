@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+}
+
+.converter {
+    text-align: center;
+    border: 10px solid white ;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 100px black (0, 0, 0, 0.1);
+}
+
+label, select, input, button {
+    margin: 100px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
